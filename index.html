@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <script src="../jspm_packages/system.js"></script>
+    <script src="../config.js"></script>
+    <script>
+        // SystemJS.config({
+        //     baseURL: '/dist'
+        // });
+        // loads relative to the current page URL
+        SystemJS.import('dist/index');
+
+        // load from an absolute URL directly
+        // SystemJS.import('https://code.jquery.com/jquery.js');
+    </script>
+</head>
+
+<body>
+    <div id="message">This is a test</div>
+
+    <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.5'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+</body>
+
+</html>

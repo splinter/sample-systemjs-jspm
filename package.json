@@ -1,0 +1,25 @@
+{
+  "name": "sample-systemjs-jspm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "browser-sync start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "systemjs": "^0.19.41"
+  },
+  "devDependencies": {
+    "@types/jquery": "^2.0.34",
+    "browser-sync": "^2.18.5"
+  },
+  "jspm": {
+    "dependencies": {
+      "jquery": "npm:jquery@^3.1.1"
+    },
+    "devDependencies": {}
+  }
+}

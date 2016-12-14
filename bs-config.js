@@ -1,0 +1,3 @@
+browserSync({
+    files: [ "dist/*.js"]
+});
